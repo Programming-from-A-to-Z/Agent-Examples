@@ -1,0 +1,5 @@
+EMAIL_ADDRESS=classaccount@gmail.com
+EMAIL_PASSWORD=abcd efgh ijkl mnop
+AGENT_NAME=yourname
+# Only if Ollama is on another computer:
+# OLLAMA_HOST=https://address-of-the-server

@@ -1,0 +1,15 @@
+body {
+  font-family: monospace;
+}
+
+/* every paperclip is a tiny SVG */
+svg {
+  width: 40px;
+  height: 40px;
+}
+
+path {
+  fill: none;
+  stroke: black;
+  stroke-width: 4;
+}

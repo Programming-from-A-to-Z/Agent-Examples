@@ -1,0 +1,13 @@
+body {
+  font-family: monospace;
+}
+
+/* keep the line breaks in the replies */
+p {
+  white-space: pre-wrap;
+}
+
+/* what the functions send back */
+.tool {
+  color: #080;
+}

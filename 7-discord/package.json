@@ -1,0 +1,9 @@
+{
+  "name": "agent-discord",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "ollama": "^0.6.4"
+  }
+}

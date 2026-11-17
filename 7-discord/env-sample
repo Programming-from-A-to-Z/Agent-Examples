@@ -1,0 +1,4 @@
+TOKEN=abcd1234
+CHANNELID=1234
+# Only if Ollama is on another computer:
+# OLLAMA_HOST=https://address-of-the-server
