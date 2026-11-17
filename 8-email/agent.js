@@ -22,7 +22,7 @@ const ollama = new Ollama({ host: process.env.OLLAMA_HOST || 'http://localhost:1
 // const model = 'gemma4';
 
 const model = 'qwen3.8:27b';
-const secondsBetween = 10;
+const secondsBetween = 60;
 // The most emails it will send before you have to restart it
 const maxEmails = 20;
 
