@@ -58,8 +58,8 @@ async function readInbox(args) {
   await inbox.connect();
   await inbox.mailboxOpen('INBOX');
 
-  // Everyone shares this inbox, so look at all the unread email
-  // and skip what was sent to somebody else's agent
+  // Look at all the unread email for this particular agent's address
+  // (and skip what was sent to somebody else's agent)
   const ids = await inbox.search({ seen: false });
   let result = '';
   for (let id of ids) {
@@ -68,7 +68,7 @@ async function readInbox(args) {
     if (!email.to || !email.to.text.toLowerCase().includes(myAddress.toLowerCase())) {
       continue;
     }
-    // Careful! This is text written by other people going straight to your agent.
+    // Careful! This is text written by other people going straight to your agent!
     result +=
       'From: ' +
       email.from.value[0].address +
